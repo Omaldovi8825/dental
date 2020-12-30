@@ -1,0 +1,30 @@
+.Inicio__container {
+    width: 1000px;
+    height: 800px;
+    background-color: #00065c;
+    margin: auto;
+    position: relative;
+}
+
+.Inicio__logo {
+    width: 21%;
+    position: relative;
+    top: 9%;
+    left: 16%;
+}
+
+.Changingarea {
+    width: 43%;
+    height: 90%;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+    background-color: #7ff4eb;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.Changingarea__img {
+    width: 90%;
+    border-radius: 20px;
+}

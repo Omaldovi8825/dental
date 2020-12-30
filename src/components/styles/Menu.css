@@ -1,0 +1,39 @@
+.MenuInicio {
+    width: 40%;
+    height: 50%;
+    left: 7%;
+    bottom: 5%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.MenuInicio, .MenuInicio__innerSquare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MenuInicio__innerSquare{
+    width: 90%;
+    height: 90%;
+    background-color: #7ff4eb;
+}
+
+.MenuInicio__boton {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 3% 0;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.fa-search {
+    /* color: black; */
+}
