@@ -27,7 +27,7 @@ body {
   font-size: 18px;
 }
 
-input {
+input, select {
   outline: none;
   padding: 5px;
   border-radius: 5px;
@@ -37,4 +37,12 @@ input {
 button {
   cursor: pointer;
   outline: none;
+}
+
+.blue-container {
+  width: 1000px;
+  height: 800px;
+  background-color: #00065c;
+  margin: auto;
+  position: relative;
 }

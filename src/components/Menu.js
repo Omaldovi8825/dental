@@ -10,7 +10,7 @@ const Icon = () => {
 const BotonInicio = (props) => {
     return(
         <Link 
-            to="./" 
+            to={props.route} 
             className="MenuInicio__boton">
                 {props.name}
         </Link>
@@ -21,7 +21,7 @@ const Menu = (props) => {
         return(
             <div className="MenuInicio">
                 <div className="MenuInicio__innerSquare">
-                    <BotonInicio name="Alta"/>
+                    <BotonInicio name="Alta" route="/alta"/>
                     <Link 
                         to="./search"
                         className="MenuInicio__boton"
@@ -29,7 +29,7 @@ const Menu = (props) => {
                             <Icon />    
                             Consulta
                     </Link>
-                    <BotonInicio name="Agenda" />
+                    <BotonInicio name="Agenda" route="/" />
                 </div>
             </div>
         )

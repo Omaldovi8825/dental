@@ -2,7 +2,7 @@
     /* border: 1px solid black; */
 }
 
-input {
+.searchForm input {
     width: 300px;
     border: 1px solid gray;
     margin: 20px 0 40px;
@@ -10,15 +10,15 @@ input {
     padding: 10px;
 }
 
-label {
+.searchForm label {
     font-size: 20px;
 }
 
-button {
+.searchForm button {
     margin-top: 40px;
 }
 
-button:hover {
+.searchForm button:hover {
     background-color: #a9a5a5;
 }
 

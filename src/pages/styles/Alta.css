@@ -1,0 +1,16 @@
+.container-alta {
+    width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.alta-right-side{
+    border: 1px solid blue;
+}
+
+.container-alta-logo {
+    width: 100px;
+}

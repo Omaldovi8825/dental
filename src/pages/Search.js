@@ -2,18 +2,7 @@ import {Component} from 'react'
 import './styles/Inicio.css'
 import SearchForm from '../components/SearchForm'
 import Menu from '../components/Menu'
-
-let altas = []
-
-const Logo = () => {
-    return(
-        <img 
-            className="Inicio__logo" 
-            src="https://i.ibb.co/tPSw1wm/denti-inicio.png" 
-            alt="logo">   
-        </img>
-    )
-}
+import Logo from '../components/Logo'
 
 const ChangingArea = (props)=> {
     return(
@@ -49,13 +38,12 @@ class Search extends Component {
     }
 
     handleSearch = () => {
-        altas.push(this.state.searchForm)
-        console.log(altas)
+
     }
 
     render(){
         return(
-            <div className="Inicio__container">
+            <div className="blue-container">
                 <Logo />
                 <Menu />
                 <ChangingArea 
