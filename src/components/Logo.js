@@ -6,7 +6,7 @@ const Logo = (props) => {
         <Link to="./">
             <img 
                 className={props.className || "Inicio_logo"} 
-                src="https://i.ibb.co/tPSw1wm/denti-inicio.png" 
+                src="https://i.ibb.co/HKZpPN7/denti-home.png" 
                 alt="logo">   
             </img>        
         </Link>

@@ -3,9 +3,10 @@
     height: 50%;
     left: 7%;
     bottom: 5%;
-    background-color: white;
+    background-color:#75c6b8;
     border-radius: 20px;
     position: absolute;
+    box-shadow:0px 0px 25px #7f3063;
 }
 
 .MenuInicio, .MenuInicio__innerSquare {
@@ -18,13 +19,14 @@
 .MenuInicio__innerSquare{
     width: 90%;
     height: 90%;
-    background-color: #7ff4eb;
+    background-color: #7f3063;
+
 }
 
 .MenuInicio__boton {
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 15px;
+    background-color: #e1f4f3;
+    box-shadow: 1px 1px 20px  #7f6b79;
+    border-radius: 10px;
     margin: 3% 0;
     font-size: 18px;
     color: black;
@@ -32,6 +34,16 @@
     width: 50%;
     text-align: center;
     padding: 20px 0;
+    border: 2px solid #7f6b79;
+}
+
+.MenuInicio__boton:hover {
+    background-color: #75c6b8;
+    box-shadow: 1px 1px 20px  #fff;
+    color:#fff;
+    border: 2px solid #75c6b8;
+    text-shadow: 0px 0px 5px black;
+
 }
 
 .fa-search {

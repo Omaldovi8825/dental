@@ -12,7 +12,8 @@
     top: 50%;
     right: 4%;
     transform: translateY(-50%);
-    background-color: #7ff4eb;
+    background-color: #75c6b8;
+    box-shadow:0px 0px 25px #7f3063;
     border-radius: 20px;
     position: absolute;
 }
