@@ -1,0 +1,16 @@
+.search-header{
+    /* border: 1px solid black; */
+    background-color: #75c6b8;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.search-header-consulta{
+    /* border: 1px solid black; */
+    color: white;
+}
+
+.search-header-consulta input{
+    width: 300px;
+}

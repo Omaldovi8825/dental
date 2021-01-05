@@ -1,56 +1,25 @@
 import {Component} from 'react'
-import './styles/Inicio.css'
-import SearchForm from '../components/SearchForm'
-import Menu from '../components/Menu'
-import Logo from '../components/Logo'
 
-const ChangingArea = (props)=> {
-    return(
-        <div className="Changingarea flex-column">
-            <SearchForm 
-                inputChange={props.inputChange} 
-                formValues={props.formValues} 
-                search={props.search}    
-            />
-        </div>
-    )
-}
+import './styles/Search.css'
+import db from '../server/db.json'
+
+import SearchHeader from '../components/SearchHeader'
+import SearchCardList from '../components/SearchCardList'
 
 class Search extends Component {
-
-    initialState = {
-        apellido: '',
-        folio: '',
-        fechaAlta: ''
-    }
-    
     state = {
-        searchForm: this.initialState
+        clients: db
     }
 
-    handleChange = e => {
-        this.setState({
-            searchForm:{
-                ...this.state.searchForm,
-                [e.target.name]: e.target.value
-            }
-        })
-    }
-
-    handleSearch = () => {
-
+    handleSearch = e => {
+        console.log(e.target.value)
     }
 
     render(){
         return(
-            <div className="blue-container">
-                <Logo />
-                <Menu />
-                <ChangingArea 
-                    inputChange={this.handleChange} 
-                    formValues={this.state.searchForm}
-                    search={this.handleSearch}    
-                />
+            <div>
+                <SearchHeader onInputChange={this.handleSearch}/>
+                <SearchCardList clients={this.state.clients}/>
             </div>
         )
     }
