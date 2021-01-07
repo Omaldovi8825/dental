@@ -1,8 +1,10 @@
 .historial-header{
-    border: 1px solid black;
+    color: #75c6b8;
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
+    background-color: #e1f4f3;
+    box-shadow: 0px 5px 20px #75c6b8;
 }
 
 .historial-header-logo{

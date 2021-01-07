@@ -12,7 +12,7 @@ const Modal = (props) => {
 
     return ReactDOM.createPortal(
         <div className="modal">
-            <i onClick={closeModal} class="far fa-window-close"></i>
+            <i onClick={closeModal} className="far fa-window-close"></i>
             {children}
         </div>, 
         document.getElementById('modal'))

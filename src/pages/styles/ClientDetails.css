@@ -2,16 +2,18 @@
     display: flex;
     width: 1000px;
     margin: auto;
-    border: 1px solid black;
     justify-content: space-around; 
     margin-top: 20px;   
+    background-image: url(https://i.ibb.co/3sgPmvg/Sin-ti-tulo-2-fondo.png);
+    background-color: white;
 }
 
 .historial-area-buttons{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid black;
+    align-items: center;
+    /* border: 1px solid black; */
     /* margin-right: 20px; */
 }
 
@@ -25,29 +27,33 @@
 }
 
 .historial-data-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: #e1f4f3;
     padding: 20px;
 }
 
 .historial-data-container-up{
-    border: 1px solid black;
     display: flex;
     margin-bottom: 20px;
 }
 
 .historial-data-container-down{
-    border: 1px solid black;
+    border: 8px solid #7f3063;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .historial-id-data{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: #7f3063;
+    color: white;
+    text-align: center;
+    align-items: center;
 }
 
 .historial-user-data{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .historial-id-data, .historial-user-data {

@@ -6,6 +6,7 @@ import NewDiagnosis from '../components/NewDiagnosis'
 
 import './styles/ClientDetails.css'
 import db from '../server/db.json'
+import { Link } from 'react-router-dom'
 
 class ClientDetails extends Component {
    
@@ -54,15 +55,16 @@ class ClientDetails extends Component {
         } = this.state.clientData
 
         let {modalOpen} = this.state
+        let paciente = this.props.match.params.clientId
 
         return(
             <div>
                 <HistorialHeader />
                 <div className="historial-area">
                     <div className="historial-area-buttons">
-                        <button type="button">
+                        <Link to={`/paciente/${paciente}/edit`}>
                             <img src="https://i.ibb.co/mTZV5pL/denti-diagnostico.png" alt="nuevo diagnostico"/>
-                        </button>
+                        </Link>
                         <button 
                             type="button"
                             onClick={this.openNewDiagnosis}>
