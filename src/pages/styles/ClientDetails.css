@@ -1,0 +1,55 @@
+.historial-area{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+    justify-content: space-around; 
+    margin-top: 20px;   
+}
+
+.historial-area-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    /* margin-right: 20px; */
+}
+
+.historial-area-buttons button{
+    border: none;
+    background: transparent;
+}
+
+.historial-area-buttons img{
+    width: 150px;
+}
+
+.historial-data-container{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.historial-data-container-up{
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.historial-data-container-down{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.historial-id-data{
+    border: 1px solid black;
+}
+
+.historial-user-data{
+    border: 1px solid black;
+}
+
+.historial-id-data, .historial-user-data {
+    padding: 20px;
+}

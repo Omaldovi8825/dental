@@ -4,63 +4,129 @@
         "foto": "https://i.ibb.co/2jQTCKM/person1.jpg",
         "nombre": "Juan",
         "apellido1": "Hernandez",
-        "apellido2": "Gutierrez"
+        "apellido2": "Gutierrez",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
     },
     {
         "folio": 2,
         "foto": "https://i.ibb.co/QMZbhSJ/person10.jpg",
         "nombre": "Francisca",
         "apellido1": "Kuri",
-        "apellido2": "Nieto"
+        "apellido2": "Nieto",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
     },
     {
         "folio": 3,
         "foto": "https://i.ibb.co/jZXJTXR/person9.jpg",
         "nombre": "Ernestora",
         "apellido1": "Jimenez",
-        "apellido2": "Del rio"
+        "apellido2": "Del rio",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
     },
     {
         "folio": 4,
         "foto": "https://i.ibb.co/L1vNHRk/person8.jpg",
         "nombre": "Juanito",
         "apellido1": "Castro",
-        "apellido2": "Ocampo"
-    },    {
+        "apellido2": "Ocampo",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
+    },    
+    {
         "folio": 5,
         "foto": "https://i.ibb.co/740LXNH/person3.jpg",
         "nombre": "Natalia",
         "apellido1": "Sanchez",
-        "apellido2": "Cordero"
-    },    {
+        "apellido2": "Cordero",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
+    },    
+    {
         "folio": 6,
         "foto": "https://i.ibb.co/DfXbKdD/person7.jpg",
         "nombre": "Jose",
         "apellido1": "Reyes",
-        "apellido2": "Otero"
-    },    {
+        "apellido2": "Otero",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
+    },    
+    {
         "folio": 7,
         "foto": "https://i.ibb.co/kGjG5Fz/person5.jpg",
         "nombre": "Lisa",
         "apellido1": "Redendiz",
-        "apellido2": "Iniesta"
-    },    {
+        "apellido2": "Iniesta",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
+    },    
+    {
         "folio": 8,
         "foto": "https://i.ibb.co/Drt93VH/person6.jpg",
         "nombre": "Marco",
         "apellido1": "Antonio",
-        "apellido2": "Solis"
-    },    {
+        "apellido2": "Solis",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
+    },    
+    {
         "folio": 9,
         "foto": "https://i.ibb.co/WstGcHy/person2.jpg",
         "nombre": "Alex",
         "apellido1": "Gutierrez",
-        "apellido2": "Gatell"
-    },    {
+        "apellido2": "Gatell",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
+    },   
+    {
         "folio": 10,
         "foto": "https://i.ibb.co/ZHx1YB3/person4.jpg",
         "nombre": "Harry",
         "apellido1": "Mountbaten",
-        "apellido2": "Cruz"
+        "apellido2": "Cruz",
+        "fechaIngreso": "12-09-2018",
+        "telefono": "7223678765",
+        "celular": "7225678909",
+        "lugarNac": "Toluca, Mexico",
+        "fechaNac": "28-03-1987",
+        "civil": "solter@"
     }    
 ]
