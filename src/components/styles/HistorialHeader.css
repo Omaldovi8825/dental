@@ -1,0 +1,11 @@
+.historial-header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.historial-header-logo{
+    width: 80px;
+}
+

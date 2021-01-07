@@ -1,0 +1,8 @@
+.diagnosis-button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 50%;
+}
