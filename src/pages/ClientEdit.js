@@ -1,26 +1,14 @@
 import {Component} from 'react'
 
-import './styles/Alta.css'
-
-import AltaForm from '../components/AltaForm'
-import AltaCard from '../components/AltaCard'
 import Logo from '../components/Logo'
+import AltaCard from '../components/AltaCard'
+import EditForm from '../components/EditForm'
 
-class Alta extends Component {
+import db from '../server/db.json'
+
+class ClientEdit extends Component {
     state = {
-        form:   {
-            nombre:'',
-            apellido1:'',
-            apellido2:'',
-            foto:'',
-            folio:'',
-            fechaAlta:'',
-            telefono:'',
-            celular:'',
-            lugarNac:'Toluca, Mexico',
-            fechaNaci:'',
-            civil:'solter@',
-        },
+        form: db[this.props.match.params.clientId - 1],
         clients: []
     }
 
@@ -40,7 +28,6 @@ class Alta extends Component {
                 [...this.state.clients,
                 this.state.clients.push(this.state.form)]
         })
-        console.log(this.state.clients)
         this.props.history.push('/search')
     }
 
@@ -49,12 +36,12 @@ class Alta extends Component {
             <div className="container-alta">
                 <div className="alta-left-side">
                     <div className="alta-header">
-                        <h1>Alta</h1>
+                        <h1>Editar Paciente</h1>
                         <Logo className="container-alta-logo"/>
                     </div>
                     <AltaCard formValues={this.state.form}/>
                 </div>
-                <AltaForm 
+                <EditForm 
                     formValues={this.state.form} 
                     onFormChange={this.handleChange}
                     onSelectChange={this.handleSelectChange}
@@ -65,4 +52,5 @@ class Alta extends Component {
     }
 }
 
-export default Alta
+export default ClientEdit
+

@@ -12,7 +12,7 @@ const NewDiagnosis = (props) => {
 
     return ReactDOM.createPortal(
         <div className="modal">
-            <i onClick={closeDiagnosisModal} class="far fa-window-close"></i>
+            <i onClick={closeDiagnosisModal} className="far fa-window-close"></i>
             <textarea className="diagnosis-area" />
             <button 
                 className="new-diagnosis-button"
