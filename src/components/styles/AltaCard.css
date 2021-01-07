@@ -1,10 +1,12 @@
 .card-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 400px;
+    
 }
 
 .card-container p{
     margin-left: 20px;
+    
 }
 
 .card-container img {
@@ -12,13 +14,24 @@
     border-radius: 50%;
 }
 
-.card-container-user{
+.card-user, .card-data {
+    background-color: #e1f4f3;
+    border: 5px solid #7f3063;
+}
+
+.card-user{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
 }
 
-.card-container span {
+.card-data{
+    /* border: 1px solid blue; */
+}
+
+.card-data span {
     color: gray;
 }
+

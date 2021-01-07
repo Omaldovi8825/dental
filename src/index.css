@@ -1,3 +1,9 @@
+/* colors */
+/* #7f3063 */
+/* #7f6b79 */
+/* #75c6b8 */
+/* #e1f4f3 */
+
 @font-face {
   font-family: 'rounded';
   src: url(./fonts/arlrdbd.ttf);
@@ -5,7 +11,8 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'rounded';
+  font-family: 'Darker Grotesque';
+  font-size: 24px;
 }
 
 body {
@@ -48,3 +55,4 @@ button {
   margin: auto;
   position: relative;
 }
+

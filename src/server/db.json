@@ -1,0 +1,66 @@
+[
+    {
+        "folio": 1,
+        "foto": "https://i.ibb.co/2jQTCKM/person1.jpg",
+        "nombre": "Juan",
+        "apellido1": "Hernandez",
+        "apellido2": "Gutierrez"
+    },
+    {
+        "folio": 2,
+        "foto": "https://i.ibb.co/QMZbhSJ/person10.jpg",
+        "nombre": "Francisca",
+        "apellido1": "Kuri",
+        "apellido2": "Nieto"
+    },
+    {
+        "folio": 3,
+        "foto": "https://i.ibb.co/jZXJTXR/person9.jpg",
+        "nombre": "Ernestora",
+        "apellido1": "Jimenez",
+        "apellido2": "Del rio"
+    },
+    {
+        "folio": 4,
+        "foto": "https://i.ibb.co/L1vNHRk/person8.jpg",
+        "nombre": "Juanito",
+        "apellido1": "Castro",
+        "apellido2": "Ocampo"
+    },    {
+        "folio": 5,
+        "foto": "https://i.ibb.co/740LXNH/person3.jpg",
+        "nombre": "Natalia",
+        "apellido1": "Sanchez",
+        "apellido2": "Cordero"
+    },    {
+        "folio": 6,
+        "foto": "https://i.ibb.co/DfXbKdD/person7.jpg",
+        "nombre": "Jose",
+        "apellido1": "Reyes",
+        "apellido2": "Otero"
+    },    {
+        "folio": 7,
+        "foto": "https://i.ibb.co/kGjG5Fz/person5.jpg",
+        "nombre": "Lisa",
+        "apellido1": "Redendiz",
+        "apellido2": "Iniesta"
+    },    {
+        "folio": 8,
+        "foto": "https://i.ibb.co/Drt93VH/person6.jpg",
+        "nombre": "Marco",
+        "apellido1": "Antonio",
+        "apellido2": "Solis"
+    },    {
+        "folio": 9,
+        "foto": "https://i.ibb.co/WstGcHy/person2.jpg",
+        "nombre": "Alex",
+        "apellido1": "Gutierrez",
+        "apellido2": "Gatell"
+    },    {
+        "folio": 10,
+        "foto": "https://i.ibb.co/ZHx1YB3/person4.jpg",
+        "nombre": "Harry",
+        "apellido1": "Mountbaten",
+        "apellido2": "Cruz"
+    }    
+]

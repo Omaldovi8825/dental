@@ -6,9 +6,10 @@ class AltaForm extends Component {
     render(){
         let formValues = this.props.formValues
         let onFormChange = this.props.onFormChange
+        let onSubmit = this.props.onSubmit
 
         return(
-            <form className="alta_form">
+            <form className="alta_form" onSubmit={onSubmit}>
                 <label>Nombre</label>
                 <input 
                     name="nombre" 
@@ -85,7 +86,7 @@ class AltaForm extends Component {
                     <option value="casad@">casad@</option>
                 </select>
                 <button 
-                    type="button"
+                    type="submit"
                     className="prm-button">
                         Crear
                 </button>      
