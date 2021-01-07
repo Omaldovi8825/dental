@@ -15,8 +15,12 @@
 }
 
 .card-user, .card-data {
-    background-color: #e1f4f3;
-    border: 5px solid #7f3063;
+    background-color: #7f3063;
+    /* border: 5px solid #7f3063; */
+    border-radius: 10px;
+    color:rgb(189, 166, 183);
+    padding: 10px;
+    box-shadow: 0px 0px 28px #7f6b79;
 }
 
 .card-user{
@@ -32,6 +36,6 @@
 }
 
 .card-data span {
-    color: gray;
+    color: rgb(250, 245, 245);
 }
 

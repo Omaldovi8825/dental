@@ -10,12 +10,21 @@
 }
 
 .card-container-up{
-    border: 10px solid #75c6b8;
+    /* border: 10px solid #75c6b8; */
     text-align: right;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #e1f4f3;
+    background-color: #7f6b79;
+    color: white;
+}
+
+
+.card-container-up:hover{
+    /* border: 8px solid #7f3063; */
+    
+    background-color: #7f3063;
+    
 }
 
 .card-container-up p{
@@ -28,10 +37,20 @@
     margin: auto;
 }
 
+
+
 .card-container-down {
-    border: 8px solid #7f3063;
+    /* border: 8px solid #7f3063; */
     border-radius: 5px;
     text-align: center;
-    background-color: #e1f4f3;;
+    background-color: #75c6b8;;
     padding: 5px;
+    color: #7f3063;
+}
+
+.card-container-down:hover {
+    /* border: 8px solid #7f3063; */
+    
+    background-color: #7f3063;
+    color: white;
 }

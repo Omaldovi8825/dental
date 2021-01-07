@@ -1,9 +1,17 @@
 .diagnosis-button{
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     border: none;
     background-color: #7f3063;
     color: white;
     border-radius: 10px;
     width: 50%;
+}
+
+
+.diagnosis-button:hover{
+   
+    background-color: #75c6b8;
+    border: 5px solid #75c6b8;
+    color: #042e27;
 }
