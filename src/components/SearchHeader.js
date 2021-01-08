@@ -8,15 +8,15 @@ class SearchHeader extends Component {
 
         return(
             <header className="search-header">
-                <div className="search-header-consulta">
-                    <h1>Consulta</h1>
-                    <input 
-                        type="text"
-                        onChange={this.props.onInputChange}
-                    />
-                </div>
-                <Link to="./">
-                    <img src={logoInicio} alt="logo inicio"></img>
+                <h1>Consulta</h1>
+                <i className="fas fa-search">
+                <input 
+                    type="text"
+                    onChange={this.props.onInputChange}
+                />
+                </i>
+                <Link to="/">
+                    <img className="search-header-logo" src={logoInicio} alt="logo inicio"></img>
                 </Link>
             </header>
         )

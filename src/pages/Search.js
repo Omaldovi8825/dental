@@ -12,7 +12,13 @@ class Search extends Component {
     }
 
     handleSearch = e => {
-        console.log(e.target.value)
+        const filteredClient = db.filter(client => {
+            return `${client.apellido1.toLowerCase()} ${client.folio}`.includes(e.target.value.toLowerCase())
+        }) 
+        
+        this.setState({
+            clients: filteredClient
+        })
     }
 
     render(){

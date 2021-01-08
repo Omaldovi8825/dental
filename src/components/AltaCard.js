@@ -15,12 +15,12 @@ const AltaCard = (props) => {
                 </div>
             </div>
             <div className="card-data">
-                <p>Fecha de ingreso: <span>{formValues.fechaAlta || '2020-12-31'}</span></p>
-                <p>Teléfono fijo: <span>{formValues.telefono || '7221223344'}</span></p>
-                <p>Telefono celular: <span>{formValues.celular || '7221223344'}</span></p>
-                <p>Lugar de nacimiento <span>{formValues.lugarNac || 'Toluca, México'}</span></p>
-                <p>Fecha de nacimmineto <span>{formValues.fechaNaci || '2020-12-31'}</span></p>
-                <p>Estado civil: <span>{formValues.civil || 'solter@'}</span></p>
+                <p>Fecha de ingreso: <span>{formValues.fechaAlta}</span></p>
+                <p>Teléfono fijo: <span>{formValues.telefono}</span></p>
+                <p>Teléfono celular: <span>{formValues.celular}</span></p>
+                <p>Lugar de nacimiento: <span>{formValues.lugarNac}</span></p>
+                <p>Fecha de nacimiento: <span>{formValues.fechaNaci}</span></p>
+                <p>Estado civil: <span>{formValues.civil}</span></p>
             </div>
         </div>
     )

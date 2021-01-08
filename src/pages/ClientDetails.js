@@ -85,12 +85,12 @@ class ClientDetails extends Component {
                                 </h1>
                             </div>
                             <div className="historial-user-data">
-                                <p>Telefono fijo: {telefono}</p>
-                                <p>Celular: {celular}</p>
-                                <p>Fecha de ingreso: {fechaIngreso}</p>
-                                <p>Fecha de nacimiento: {fechaNac}</p>
-                                <p>Lugar de nacimiento: {lugarNac}</p>
-                                <p>Estado civil: {civil}</p>
+                                <p>Telefono fijo: <span>{telefono}</span></p>
+                                <p>Celular: <span>{celular}</span></p>
+                                <p>Fecha de ingreso: <span>{fechaIngreso}</span></p>
+                                <p>Fecha de nacimiento: <span>{fechaNac}</span></p>
+                                <p>Lugar de nacimiento: <span>{lugarNac}</span></p>
+                                <p>Estado civil: <span>{civil}</span></p>
                             </div>
                         </div>
                         <div className="historial-data-container-down">
