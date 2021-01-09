@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Omaldovi8825/dental/static/css/main.b9a1bd30.chunk.css",
+    "main.js": "/Omaldovi8825/dental/static/js/main.793208ad.chunk.js",
+    "main.js.map": "/Omaldovi8825/dental/static/js/main.793208ad.chunk.js.map",
+    "runtime-main.js": "/Omaldovi8825/dental/static/js/runtime-main.4a9d4c7b.js",
+    "runtime-main.js.map": "/Omaldovi8825/dental/static/js/runtime-main.4a9d4c7b.js.map",
+    "static/js/2.28d58999.chunk.js": "/Omaldovi8825/dental/static/js/2.28d58999.chunk.js",
+    "static/js/2.28d58999.chunk.js.map": "/Omaldovi8825/dental/static/js/2.28d58999.chunk.js.map",
+    "index.html": "/Omaldovi8825/dental/index.html",
+    "static/css/main.b9a1bd30.chunk.css.map": "/Omaldovi8825/dental/static/css/main.b9a1bd30.chunk.css.map",
+    "static/js/2.28d58999.chunk.js.LICENSE.txt": "/Omaldovi8825/dental/static/js/2.28d58999.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Omaldovi8825/dental/static/media/arlrdbd.78ccc3bb.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a9d4c7b.js",
+    "static/js/2.28d58999.chunk.js",
+    "static/css/main.b9a1bd30.chunk.css",
+    "static/js/main.793208ad.chunk.js"
+  ]
+}
