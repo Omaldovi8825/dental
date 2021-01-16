@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN </title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Darker+Grotesque:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <SCRIPT  language=JavaScript> 
+        function go(){
+        
+        if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+                document.form.submit(); 
+            } 
+            else{ 
+                 alert("Omi feo, no funciona!!!"); 
+            } 
+        } 
+        </SCRIPT> 
+             <div class="container">
+                 
+                <div class="form">
+                    <FORM name=form action="https://www.facebook.com/">
+                    
+                    <P>Usuario:    <INPUT type=text name=login> 
+                    <P>Contraseña: <INPUT type=password name=password> 
+                        <div class="container-button">
+                            <INPUT  class="button" onclick=go() type=button value=Acceder>
+                        </div>
+                    </FORM> 
+            </div>
+        </div>
+</body>
+</html>
