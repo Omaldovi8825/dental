@@ -11,7 +11,7 @@
 }
 
 .alta_form input, .alta_form select {
-    margin: 10px 0 20px;
+    margin-bottom: 10px;
     border: 1px solid #7f3063;
 }
 
@@ -25,6 +25,13 @@
 
 .alta_form button {
     margin: auto;
+    font-size: 25px;
+    background-color: #894e77;
+    color: white;
+}
+
+.alta_form button:hover {
+    background-color: #7f3063;
 }
 
 .alta-logo {

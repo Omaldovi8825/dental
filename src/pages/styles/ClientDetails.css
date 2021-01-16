@@ -11,15 +11,15 @@
 .historial-area-buttons{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
-    /* margin-right: 20px; */
 }
 
 .historial-area-buttons button{
     border: none;
     background: transparent;
+    margin: 80px 0;
 }
 
 .historial-area-buttons img{
@@ -38,10 +38,11 @@
 }
 
 .historial-data-container-down{
-    border: 8px solid #7f6b79;
+    /* border: 8px solid #7f6b79; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #bababa;
 }
 
 .historial-id-data{
@@ -49,11 +50,23 @@
     background-color: #75c6b8;
     color: white;
     text-align: center;
-    align-items: center;
+}
+
+.historial-id-data h1 {
+    font-size: 54px;
+}
+
+.historial-id-data p {
+    font-size: 30px;
 }
 
 .historial-user-data{
     /* border: 1px solid black; */
+}
+
+.historial-user-data span{
+    color: #7f3063;
+    font-weight: bold;
 }
 
 .historial-id-data, .historial-user-data {
